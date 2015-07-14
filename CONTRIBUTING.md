@@ -4,7 +4,7 @@
 
 ## How to Contribute
 
-This project constitutes a collaborative work ("open source"). Federal employees and members of the public are encouraged to improve the project by contributing. 
+This project constitutes a collaborative work ("open source"). Federal employees and members of the public are encouraged to improve the project by contributing.
 
 Contributions can be made, primarily in two ways:
 
@@ -28,5 +28,5 @@ Contributions can be made, primarily in two ways:
 
 ## Team Processes
 
-* Pull requests are required for all commits, even typos. 
+* Pull requests are required for all commits, even typos.
 * Don't merge your own pull request. Sure, there's no code here but we should maintain this best practice until we find a compelling reason not to.
