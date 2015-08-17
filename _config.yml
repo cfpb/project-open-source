@@ -1,0 +1,43 @@
+# Base configuration
+permalink: /:title
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+markdown: kramdown
+pygments: true
+
+# Title
+name: Project Open Source
+subtitle:
+
+# When using this template with a project page set the baseurl to '/project-name'
+# For user/organization pages set this to an empty string
+# When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
+# See http://jekyllrb.com/docs/github-pages/ for more info
+#baseurl: ''
+baseurl: '/project-open-source'
+
+# Author/Organization info to be displayed in the templates
+author:
+  name:
+  url:
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl:
+logoalt:
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Home
+  url: index.html
+  internal: true
+
+
+# Repo list
+# List repos that you would like to appear on the homepage here
+# repos:
+# - name: DOCter
+#   description: Jekyll template for docs
+#   url: https://github.com/cfpb/DOCter
+
+# Style Variables
+brand_color: "#002a5b"
