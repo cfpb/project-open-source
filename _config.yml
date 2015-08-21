@@ -1,7 +1,7 @@
 # Base configuration
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 markdown: redcarpet
-highlighter: true
+pygments: true
 relative_permalinks: false
 
 
