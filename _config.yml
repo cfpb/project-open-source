@@ -1,12 +1,18 @@
 # Base configuration
-permalink: /:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-markdown: kramdown
-pygments: true
+markdown: redcarpet
+highlighter: true
+relative_permalinks: false
+
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
 
 # Title
 name: Project Open Source
-subtitle:
+subtitle: Test
 
 # When using this template with a project page set the baseurl to '/project-name'
 # For user/organization pages set this to an empty string
@@ -30,7 +36,36 @@ navigation:
 - text: Home
   url: index.html
   internal: true
-
+- text: What is open source?
+  url: what-is-open-source/
+  internal: true
+- text: Why use open source?
+  url: why-open-source/
+  internal: true
+- text: Procuring open source
+  url: procurement/
+  internal: true
+- text: Managing open source
+  url: management/
+  internal: true
+- text: Documentation
+  url: documentation/
+  internal: true
+- text: Licenses
+  url: licenses/
+  internal: true
+- text: Security
+  url: security/
+  internal: true
+- text: Publishing your code
+  url: publishing/
+  internal: true
+- text: Contributing to the community
+  url: contributing/
+  internal: true
+- text: Case studies
+  url: case-studies/
+  internal: true
 
 # Repo list
 # List repos that you would like to appear on the homepage here
