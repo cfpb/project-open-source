@@ -170,9 +170,7 @@ Navigation
 
 .sidebar-nav a {
   display: block;
-  padding: 10px;
-  -webkit-transition: .4s;
-  transition: .4s;
+  padding: 10px;ß
 }
 .sidebar-nav a,
 .sidebar-nav a:link,
@@ -180,20 +178,20 @@ Navigation
   border-bottom: none;
   color: #75787b;
 }
-.sidebar-nav li:hover,
-.sidebar-nav a:focus,
-.sidebar-nav li:active,
-.sidebar-nav .sidebar-nav-active {
+.sidebar-nav li:hover {
   color: #75787b;
   border-left: 4px solid {{ site.brand_color }};
   background-color: transparent;
   border-bottom: 1px solid #babbbd;
-  padding-left: 0;
+  margin-left: -4px; /* accomodate for border */
+}
+.sidebar-nav a:focus,
+.sidebar-nav li:active {
+  color: #75787b;
 }
 .sidebar-nav ul {
   margin: 0;
   padding: 0;
-  /*border-top: 1px solid @gray-50;*/
 }
 .sidebar-nav li {
   list-style: none;
