@@ -4,16 +4,17 @@ title: What is open source?
 ---
 
 ## What is open source?
+Generally speaking, Open Source Software (OSS), is publicly available code that does not charge users a purchase or licensing fee for use, modification, or redistribution. Some OSS include terms associated with how the software can be used, but is open to be administered and maintained by a variety entities rather than a single vendor.
 
-Free and Open Source Software (FOSS), is publicly available code that does not charge users a purchase or licensing fee for use, modification, or redistribution. Some FOSS include terms associated with how the software can be used, but is open to be administered and maintained by a variety entities rather than a single vendor.
+More specifically, as it relates to government use, the 16 October 2009 memorandum from the Department of Defense, ["Clarifying Guidance Regarding Open Source Software (OSS)"](http://dodcio.defense.gov/OpenSourceSoftwareFAQ.aspx) defines OSS as "software for which the human-readable source code is available for use, study, re-use, modification, enhancement, and re-distribution by the users of that software".
 
-FOSS is useful when identifying a solution to a problem.
+*Usage Note: Occasionally the terms "Free and Open Source Software" (FOSS) or "Free/Libre Open Source Software (FLOSS) are used to distinguish different degrees of openness (generally based on the type of license used), however, the material on this site considers these terms and their variants collectively as Open Source Software.*
 
 ### Some of the different kinds of open source projects you may encounter
 
-1. Coding a new app or tool from scratch
-2. Adapting existing libraries and frameworks for your needs
-3. Using and maintaining open source software
+1. Creating a new application, library, or tool from scratch
+2. Adapting existing open source software for your needs
+3. Ongoing improvements to exising open source software, such as bug fixes and security patches.
 
 ### Where is open source used?
 
