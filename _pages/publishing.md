@@ -11,7 +11,7 @@ While everyone might not have a need for your specific open source tool, publish
 
 *Engagement:* It's important to be clear about the level of engagement people can expect. Open source communities thrive on collaboration. Providing explicit information about how often people should expect updates to the code or responses to any issues raised goes a long way. It will help to consider increasing the level of engagement based on demand.
 
-*Sensitive Information:* Sensitive information can sometimes make its way into commit messages or the code itself. Sensitive data, including personally identifiable information, should be maintained separately from where the source code is published. Before publishing, you should make certain that information like PII or passwords are not included in the publication. Tools like (Clouseau) [https://github.com/cfpb/clouseau] can help you identify sensitive information in your source code.
+*Sensitive Information:* Sensitive information can sometimes make its way into commit messages or the code itself. Sensitive data, including personally identifiable information, should be maintained separately from where the source code is published. Before publishing, you should make certain that information like PII or passwords are not included in the publication. Tools like [Clouseau](https://github.com/cfpb/clouseau) can help you identify sensitive information in your source code.
 
 ### Where to publish
 
